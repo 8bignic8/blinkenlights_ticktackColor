@@ -14,7 +14,12 @@ This code example will show how the colors are mapped in the LED matrix
 First(1) Row: 1R2R3R4R5R6R7R8R1G2G3G4G5G6G7G8G1B2B3B4B5B6B7B8B
 ```
 
-Important the LED´s brightness will be between 0-7 and 7 is full on.
+# Important 
+If you are using an mSD Card (fat16 or 32) you need to create a folder called: 
+```bash
+BP18X8.RGB
+```
+the LED´s brightness will be between 0-7 and 7 is full on.
 Also a two time valuese in Hex are required, see example for more infos.
 
 So if you want to tun the first LED to a white for 1second, it will look like: 
