@@ -12,6 +12,8 @@ git clone this repo
 ```bash 
 cd /blinkenligts_ticktackcolor
 python3 main.py
+# for more info use
+python3 main.py -h
 ```
 Currently there is no parser so you need to change the picture path in the code. 
 ---
@@ -33,9 +35,8 @@ First(1) Row: 1R2R3R4R5R6R7R8R1G2G3G4G5G6G7G8G1B2B3B4B5B6B7B8B
 If you are using an mSD Card (fat16 or 32) you need to create a folder called: BP18X8.RGB
 
 # .blm
-```bash
 
-If you want to make a rgb picture in the blm format see:
+> If you want to make a rgb picture in the blm format see:
 
 see example_rgb.blm
 
